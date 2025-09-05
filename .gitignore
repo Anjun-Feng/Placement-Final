@@ -1,0 +1,7 @@
+# Ignore all contents of the 'oop' directory
+oop/*
+
+# But DO NOT ignore (re-include) these specific files
+!oop/dog.py
+!oop/task1.py
+!oop/task2.py
