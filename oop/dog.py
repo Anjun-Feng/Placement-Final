@@ -40,3 +40,5 @@ print(miles.speak())
 
 print(kenny)
 print(kenny.speak())
+
+print(isinstance(miles, Dog))  
