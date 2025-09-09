@@ -39,7 +39,7 @@ class Car:
             return "The car is being serviced."
         else:
             return "The car does not need servicing."
-
+    
 class Haval(Car):
     """
     A child class representing a Haval car.
