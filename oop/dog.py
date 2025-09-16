@@ -38,7 +38,7 @@ print(bob.speak("Woof Woof"))
 print(miles)
 print(miles.speak())
 
-print(kenny)
+print(kenny.colour)
 print(kenny.speak())
 
 print(isinstance(miles, Dog))  

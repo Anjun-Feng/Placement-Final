@@ -124,7 +124,7 @@ class Sword(Weapon):
     def __init__(self, name: str, size: int, power: int, range: int):
          # Initialize the parent Weapon class with a default description for a sword
         super().__init__(name, "A well-balanced sword with a keen edge.", size, power, range)
-
+    
     def swing(self):
         """Generates a message for a swinging action."""
         print(f"You swing the {self.name} gracefully.")
