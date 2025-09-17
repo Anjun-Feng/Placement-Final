@@ -5,6 +5,7 @@ def division(x, y):
     except ZeroDivisionError:
         return "Error: Cannot divide by zero."
 
+# Get integer input from the user
 def get_integer_input(prompt):
     while True:
         try:
